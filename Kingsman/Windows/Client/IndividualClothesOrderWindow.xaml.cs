@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Kingsman.Windows.Staff
+namespace Kingsman.Windows.Client
 {
     /// <summary>
-    /// Логика взаимодействия для ReportsWindow.xaml
+    /// Логика взаимодействия для IndividualClothesOrderWindow.xaml
     /// </summary>
-    public partial class ReportsWindow : Window
+    public partial class IndividualClothesOrderWindow : Window
     {
-        public ReportsWindow()
+        public IndividualClothesOrderWindow()
         {
             InitializeComponent();
         }

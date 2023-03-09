@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Kingsman.Windows
+namespace Kingsman.Windows.Staff
 {
     /// <summary>
-    /// Логика взаимодействия для GiftSertificatesWindow.xaml
+    /// Логика взаимодействия для ClientEditWindow.xaml
     /// </summary>
-    public partial class GiftSertificatesWindow : Window
+    public partial class ClientEditWindow : Window
     {
-        public GiftSertificatesWindow()
+        public ClientEditWindow()
         {
             InitializeComponent();
         }

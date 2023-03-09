@@ -1,11 +1,11 @@
-﻿<Window x:Class="Kingsman.Windows.AllPriceWindow"
+﻿<Window x:Class="Kingsman.Windows.Staff.ClientEditWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Kingsman.Windows"
+        xmlns:local="clr-namespace:Kingsman.Windows.Staff"
         mc:Ignorable="d"
-        Title="AllPriceWindow" Height="450" Width="800">
+        Title="ClientEditWindow" Height="450" Width="800">
     <Grid>
         
     </Grid>

@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Kingsman.Windows
+namespace Kingsman.Windows.Client
 {
     /// <summary>
-    /// Логика взаимодействия для AllPriceWindow.xaml
+    /// Логика взаимодействия для AllCategoriesWindow.xaml
     /// </summary>
-    public partial class AllPriceWindow : Window
+    public partial class AllCategoriesWindow : Window
     {
-        public AllPriceWindow()
+        public AllCategoriesWindow()
         {
             InitializeComponent();
         }

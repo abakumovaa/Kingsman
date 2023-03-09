@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Kingsman.Windows.Staff
 {
     /// <summary>
-    /// Логика взаимодействия для SellerAccountWindow.xaml
+    /// Логика взаимодействия для ServiceListWindow.xaml
     /// </summary>
-    public partial class SellerAccountWindow : Window
+    public partial class ServiceListWindow : Window
     {
-        public SellerAccountWindow()
+        public ServiceListWindow()
         {
             InitializeComponent();
         }

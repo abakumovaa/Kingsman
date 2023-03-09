@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Kingsman.Windows
+namespace Kingsman.Windows.Client
 {
     /// <summary>
-    /// Логика взаимодействия для FAQWindow.xaml
+    /// Логика взаимодействия для ClientOrderWindow.xaml
     /// </summary>
-    public partial class FAQWindow : Window
+    public partial class ClientOrderWindow : Window
     {
-        public FAQWindow()
+        public ClientOrderWindow()
         {
             InitializeComponent();
         }

@@ -55,17 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Windows\Client\AllPriceWindow.xaml.cs">
-      <DependentUpon>AllPriceWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Windows\AuthWindow.xaml.cs">
       <DependentUpon>AuthWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Client\CategoryRepairWindow.xaml.cs">
-      <DependentUpon>CategoryRepairWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Client\ClientOrderWindow.xaml.cs">
+      <DependentUpon>ClientOrderWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Client\CategoryTailorOrderWindow.xaml.cs">
-      <DependentUpon>CategoryTailorOrderWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Client\ClientServiceListWindow.xaml.cs">
+      <DependentUpon>ClientServiceListWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Client\ClientAccountWindow.xaml.cs">
       <DependentUpon>ClientAccountWindow.xaml</DependentUpon>
@@ -76,23 +73,8 @@
     <Compile Include="Windows\Client\ContactsWindow.xaml.cs">
       <DependentUpon>ContactsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Client\FAQWindow.xaml.cs">
-      <DependentUpon>FAQWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Client\FeedbackWindow.xaml.cs">
-      <DependentUpon>FeedbackWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Client\GiftSertificatesWindow.xaml.cs">
-      <DependentUpon>GiftSertificatesWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Client\InfoWindow.xaml.cs">
-      <DependentUpon>InfoWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Client\MainAtelierWindow.xaml.cs">
-      <DependentUpon>MainAtelierWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Client\MaterialsWindow.xaml.cs">
-      <DependentUpon>MaterialsWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Client\IndividualClothesOrderWindow.xaml.cs">
+      <DependentUpon>IndividualClothesOrderWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Client\PortfolioWindow.xaml.cs">
       <DependentUpon>PortfolioWindow.xaml</DependentUpon>
@@ -100,54 +82,39 @@
     <Compile Include="Windows\RegistrationWindow.xaml.cs">
       <DependentUpon>RegistrationWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Client\SalesWindow.xaml.cs">
-      <DependentUpon>SalesWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Client\TailorOrderWindow.xaml.cs">
-      <DependentUpon>TailorOrderWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Windows\Staff\AdminAccountWindow.xaml.cs">
       <DependentUpon>AdminAccountWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Staff\AvailableMaterialWindow.xaml.cs">
-      <DependentUpon>AvailableMaterialWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Staff\ChatWithBossWindow.xaml.cs">
-      <DependentUpon>ChatWithBossWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Staff\ChatWithClientsWindow.xaml.cs">
-      <DependentUpon>ChatWithClientsWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Staff\ClientChatWindow.xaml.cs">
-      <DependentUpon>ClientChatWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Staff\ClientEditWindow.xaml.cs">
+      <DependentUpon>ClientEditWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Staff\ClientOrderWindow.xaml.cs">
       <DependentUpon>ClientOrderWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Staff\CutterAccountWindow.xaml.cs">
-      <DependentUpon>CutterAccountWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Staff\OrderPassportWindow.xaml.cs">
-      <DependentUpon>OrderPassportWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Staff\ClientRegistrationWindow.xaml.cs">
+      <DependentUpon>ClientRegistrationWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Staff\OrdersListWindow.xaml.cs">
       <DependentUpon>OrdersListWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Staff\PayStatusWindow.xaml.cs">
-      <DependentUpon>PayStatusWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Staff\OrdersStatusWindow.xaml.cs">
+      <DependentUpon>OrdersStatusWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Staff\ReportsWindow.xaml.cs">
-      <DependentUpon>ReportsWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Staff\ServiceListWindow.xaml.cs">
+      <DependentUpon>ServiceListWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Staff\SellerAccountWindow.xaml.cs">
-      <DependentUpon>SellerAccountWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Staff\SketchWindow.xaml.cs">
-      <DependentUpon>SketchWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Staff\WorkerAccountWindow.xaml.cs">
-      <DependentUpon>WorkerAccountWindow.xaml</DependentUpon>
-    </Compile>
+    <Page Include="Windows\Client\ClientOrderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Client\ClientServiceListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Client\IndividualClothesOrderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -160,19 +127,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Windows\Client\AllPriceWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Windows\AuthWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\CategoryRepairWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\CategoryTailorOrderWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -188,30 +143,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Client\FAQWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\FeedbackWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\GiftSertificatesWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\InfoWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\MainAtelierWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\MaterialsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Windows\Client\PortfolioWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -220,31 +151,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Client\SalesWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Client\TailorOrderWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Windows\Staff\AdminAccountWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Staff\AvailableMaterialWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\ChatWithBossWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\ChatWithClientsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\ClientChatWindow.xaml">
+    <Page Include="Windows\Staff\ClientEditWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -252,11 +163,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Staff\CutterAccountWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\OrderPassportWindow.xaml">
+    <Page Include="Windows\Staff\ClientRegistrationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -264,23 +171,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Staff\PayStatusWindow.xaml">
+    <Page Include="Windows\Staff\OrdersStatusWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Staff\ReportsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\SellerAccountWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\SketchWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\WorkerAccountWindow.xaml">
+    <Page Include="Windows\Staff\ServiceListWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

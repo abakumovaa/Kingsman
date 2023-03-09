@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Kingsman.Windows.Staff
 {
     /// <summary>
-    /// Логика взаимодействия для ClientChatWindow.xaml
+    /// Логика взаимодействия для ClientRegistrationWindow.xaml
     /// </summary>
-    public partial class ClientChatWindow : Window
+    public partial class ClientRegistrationWindow : Window
     {
-        public ClientChatWindow()
+        public ClientRegistrationWindow()
         {
             InitializeComponent();
         }
