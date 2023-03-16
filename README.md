@@ -8,6 +8,8 @@
 
 База данных (задание от 10.03.23)
 
-![изображение](https://user-images.githubusercontent.com/99207233/224987730-9127cc50-dc55-4d05-9424-a5add8dee4db.png)
+![изображение](https://user-images.githubusercontent.com/99207233/225609636-6f8db205-75ed-426b-9573-1bde99dbbcaf.png)
+![изображение](https://user-images.githubusercontent.com/99207233/225609698-3e126435-3996-4a17-b92d-96aa713777db.png)
+
 
 
