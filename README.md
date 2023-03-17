@@ -7,9 +7,9 @@
 ![изображение](https://user-images.githubusercontent.com/99207233/224033488-ea847227-b949-4ff1-8ddd-6dbcffbd1627.png)
 
 База данных (задание от 10.03.23)
+<img width="697" alt="db1" src="https://user-images.githubusercontent.com/99207233/225830638-1a4d878b-7aea-4eeb-918f-bc4f5f84447f.png">
+<img width="499" alt="db2" src="https://user-images.githubusercontent.com/99207233/225830644-3f2a5a77-0a64-4ac5-8c04-a4a29eeb5d87.png">
 
-![изображение](https://user-images.githubusercontent.com/99207233/225609636-6f8db205-75ed-426b-9573-1bde99dbbcaf.png)
-![изображение](https://user-images.githubusercontent.com/99207233/225609698-3e126435-3996-4a17-b92d-96aa713777db.png)
 
 Дизайн окна авторизации (от 16.03.23)
 <img width="592" alt="Screenshot_1" src="https://user-images.githubusercontent.com/99207233/225826148-c58a7154-d0e8-4f42-bb6b-dc630526cd4b.png">
