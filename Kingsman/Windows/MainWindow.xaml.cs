@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Kingsman.Windows.Staff;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +26,42 @@ namespace Kingsman
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Login_GotFocus(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Password_GotFocus(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void Show(object sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show("Заходит как-то скелет в бар. Заказывает пиво и швабру");
+            //List<DB.Staff> db = new List<DB.Staff>;
+            var userAuth = ClassHelper.EF.Context.Staff.ToList().Where(i => i.Login == TbLogin.Text && i.Password == TbPassword.Text).
+                //поменять с textbox на passwordbox
+            FirstOrDefault();
+
+            
+            if (userAuth != null)
+            {
+                //переход на список услуг
+                ServiceListWindow serviceListWindow = new ServiceListWindow();
+                serviceListWindow.Show();
+                this.Show();
+            }
+
+            else
+            {
+                MessageBox.Show("There is no such user in database", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+            //проверка на наличие пользователя
+           
         }
     }
 }

@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="ServiceListWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <TextBox Text="Window is now are developing"  Width="480"
+                     Height="60"
+                     Margin="40 170 0 0"
+                     HorizontalAlignment="Center" 
+                     FontFamily="Krona One" 
+                     FontSize="22" 
+                     TextWrapping="Wrap"
+                      VerticalContentAlignment="Center" 
+                      Foreground="Black" VerticalAlignment="Center" BorderBrush="#00ABADB3"/>
+        </StackPanel>
     </Grid>
 </Window>
