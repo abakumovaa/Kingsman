@@ -15,3 +15,6 @@
 <img width="592" alt="Screenshot_1" src="https://user-images.githubusercontent.com/99207233/225826148-c58a7154-d0e8-4f42-bb6b-dc630526cd4b.png">
 <img width="587" alt="Screenshot_2" src="https://user-images.githubusercontent.com/99207233/225826176-e46c0c12-b41e-46c1-973f-3eb200f7ef66.png">
 
+Авторизация пользователя (от 17.03.23)
+![Screenshot_3](https://user-images.githubusercontent.com/99207233/226527475-696a9a23-f0a1-40c6-9c28-fee45b8ecf65.jpg)
+<img width="559" alt="210303" src="https://user-images.githubusercontent.com/99207233/226527091-ccac4d19-e5e5-4367-872f-9491c077eca0.png">
