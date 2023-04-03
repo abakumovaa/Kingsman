@@ -6,7 +6,6 @@
     <Application.Resources>
         <Style x:Key="CustomFont" TargetType="Label">
             <Setter Property="FontFamily" Value="Fonts/KronaOne-Regular.ttf #Krona"/>
-            
         </Style>
     </Application.Resources>
 </Application>

@@ -41,6 +41,7 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
@@ -158,9 +159,6 @@
     <Compile Include="Windows\Staff\ClientOrderWindow.xaml.cs">
       <DependentUpon>ClientOrderWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Staff\ClientRegistrationWindow.xaml.cs">
-      <DependentUpon>ClientRegistrationWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Windows\Staff\OrdersListWindow.xaml.cs">
       <DependentUpon>OrdersListWindow.xaml</DependentUpon>
     </Compile>
@@ -227,10 +225,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Staff\ClientOrderWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\Staff\ClientRegistrationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -301,6 +295,13 @@
     <Resource Include="Res\Images\Back2.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Res\Images\Costumes\5costume.jpeg" />
+    <Resource Include="Res\Images\Costumes\4costume.jpg" />
+    <Resource Include="Res\Images\Costumes\3costume.jpg" />
+    <Resource Include="Res\Images\Costumes\1costume.jpeg" />
+    <Resource Include="Res\Images\Costumes\2costume.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="DB\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -311,6 +312,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Res\Images\3men.png" />
+    <Resource Include="Res\Images\Back3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

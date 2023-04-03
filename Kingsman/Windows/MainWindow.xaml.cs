@@ -1,4 +1,5 @@
-﻿using Kingsman.Windows.Staff;
+﻿using Kingsman.Windows;
+using Kingsman.Windows.Staff;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 
 namespace Kingsman
 {
@@ -52,7 +54,7 @@ namespace Kingsman
                 //переход на список услуг
                 ServiceListWindow serviceListWindow = new ServiceListWindow();
                 serviceListWindow.Show();
-                this.Show();
+                this.Close();
             }
 
             else
@@ -62,6 +64,13 @@ namespace Kingsman
 
             //проверка на наличие пользователя
            
+        }
+
+        private void Reg(object sender, RoutedEventArgs e)
+        {
+            RegistrationWindow registrationWindow = new RegistrationWindow();
+            registrationWindow.Show();
+            this.Close();
         }
     }
 }

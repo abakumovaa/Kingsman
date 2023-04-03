@@ -5,18 +5,116 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kingsman.Windows.Staff"
         mc:Ignorable="d"
-        Title="ServiceListWindow" Height="450" Width="800">
+        Title="ServiceListWindow" Height="900" Width="1024">
+    <Window.Resources>
+        <Style x:Key="CustomFont" TargetType="Label">
+            <Setter Property="FontFamily" Value="Fonts/KronaOne-Regular.ttf #Krona"/>
+
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="/Res/Images/Back2.png"/>
+    </Window.Background>
     <Grid>
-        <StackPanel>
-            <TextBox Text="Window is now are developing"  Width="480"
-                     Height="60"
-                     Margin="40 170 0 0"
-                     HorizontalAlignment="Center" 
-                     FontFamily="Krona One" 
-                     FontSize="22" 
-                     TextWrapping="Wrap"
-                      VerticalContentAlignment="Center" 
-                      Foreground="Black" VerticalAlignment="Center" BorderBrush="#00ABADB3"/>
-        </StackPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="375*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="88"/>
+            <RowDefinition Height="22"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Service List"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"
+                   FontSize="43"
+                   FontFamily="Krona One" 
+                   Foreground="White" Height="44" Width="406"
+                   Margin="50,0,0,0"
+                   />
+        <TextBlock Text="Back"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"
+                   FontSize="43"
+                   FontFamily="Krona One" 
+                   Foreground="White" Height="44" Width="406"
+                   Margin="50,840,0,0"
+                   />
+        <TextBlock Text="Account"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="32"
+                   FontFamily="Krona One" 
+                   Foreground="White" Height="44" Width="406"
+                   Margin="500,32,0,0" Grid.ColumnSpan="2"
+                   />
+        <TextBlock Text="Bag"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="32"
+                   FontFamily="Krona One" 
+                   Foreground="White" Height="44" Width="406"
+                   Margin="710,32,0,0" Grid.ColumnSpan="2"
+                   />
+        <TextBlock Text="Contacts"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="32"
+                   FontFamily="Krona One" 
+                   Foreground="White" Height="44" Width="406"
+                   Margin="70,32,0,0" Grid.Column="1"
+                   />
+        <ListView x:Name="LvService" 
+                  Grid.Row="2" 
+                  d:ItemsSource="{d:SampleData ItemCount=8}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.ColumnSpan="2" Margin="0,0,0,336"
+                  SelectionChanged="LvService_SelectionChanged">
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Gray"
+                            BorderThickness="2"
+                            Width="200"
+                            Height="300"
+                            Margin="16"
+                            CornerRadius="8">
+                        <StackPanel>
+                            <Image Height="180"
+                                   Width="174" 
+                                   Margin="8">
+                                <Image.Source>
+                                    <Binding Path ="Image">
+                                        <Binding.TargetNullValue>
+                                            <ImageSource>/Res/Images/Costumes/1costume.jpeg</ImageSource>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+
+                            <TextBlock Text="{Binding ServiceName}"
+                                       FontSize="18"
+                                       Margin="5 3"/>
+                            <TextBlock Text="{Binding Price}"
+                                       FontSize="18"
+                                       Margin="5 3"/>
+                            <TextBlock Text="{Binding Description}"
+                                       FontSize="18"
+                                       Margin="5 3"
+                                       TextWrapping="Wrap" FontFamily="Arial Rounded MT Bold"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Window>

@@ -22,6 +22,17 @@ namespace Kingsman.Windows.Staff
         public ServiceListWindow()
         {
             InitializeComponent();
+            GetListService();
+        }
+
+        private void GetListService()
+        {
+            LvService.ItemsSource = ClassHelper.EF.Context.Service.ToList();
+        }
+
+        private void LvService_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
