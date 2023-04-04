@@ -12,7 +12,7 @@
 
 
 <b> Дизайн окна авторизации (от 16.03.23) <b>
-<img width="592" alt="Screenshot_1" src="https://user-images.githubusercontent.com/99207233/225826148-c58a7154-d0e8-4f42-bb6b-dc630526cd4b.png">
+![изображение](https://user-images.githubusercontent.com/99207233/229746769-da22355c-f519-4e48-91e0-24a65aedc4f3.png)
 <img width="587" alt="Screenshot_2" src="https://user-images.githubusercontent.com/99207233/225826176-e46c0c12-b41e-46c1-973f-3eb200f7ef66.png">
 
 <b> Авторизация пользователя (от 17.03.23) <b>
