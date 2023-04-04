@@ -50,7 +50,7 @@
                    FontSize="32"
                    FontFamily="Krona One" 
                    Foreground="White" Height="44" Width="406"
-                   Margin="500,32,0,0" Grid.ColumnSpan="2"
+                   Margin="500,32,0,0" Grid.ColumnSpan="1"
                    />
         <TextBlock Text="Bag"
                    HorizontalAlignment="Left"
@@ -66,7 +66,7 @@
                    FontSize="32"
                    FontFamily="Krona One" 
                    Foreground="White" Height="44" Width="406"
-                   Margin="70,32,0,0" Grid.Column="1"
+                   Margin="70,32,0,0" Grid.Column="3"
                    />
         <ListView x:Name="LvService" 
                   Grid.Row="2" 
@@ -93,22 +93,22 @@
                                    Width="174" 
                                    Margin="8">
                                 <Image.Source>
-                                    <Binding Path ="Image">
+                                    <Binding Path ="ImagePath">
                                         <Binding.TargetNullValue>
-                                            <ImageSource>/Res/Images/Costumes/1costume.jpeg</ImageSource>
+                                            <ImageSource>/Res/1costume.jpeg</ImageSource>
                                         </Binding.TargetNullValue>
                                     </Binding>
                                 </Image.Source>
                             </Image>
 
-                            <TextBlock Text="{Binding ServiceName}"
-                                       FontSize="18"
+                            <TextBlock Text="{Binding Title}"
+                                       FontSize="12"
                                        Margin="5 3"/>
-                            <TextBlock Text="{Binding Price}"
-                                       FontSize="18"
+                            <TextBlock Text="{Binding Cost}"
+                                       FontSize="12"
                                        Margin="5 3"/>
                             <TextBlock Text="{Binding Description}"
-                                       FontSize="18"
+                                       FontSize="12"
                                        Margin="5 3"
                                        TextWrapping="Wrap" FontFamily="Arial Rounded MT Bold"/>
                         </StackPanel>

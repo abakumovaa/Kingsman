@@ -24,7 +24,7 @@ namespace Kingsman.Windows
         {
             InitializeComponent();
             CmbGender.ItemsSource = ClassHelper.EF.Context.Gender.ToList();
-            CmbGender.DisplayMemberPath = "GenderName";
+            CmbGender.DisplayMemberPath = "Name";
             CmbGender.SelectedIndex = 0;
         }
 

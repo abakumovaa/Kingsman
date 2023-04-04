@@ -393,9 +393,7 @@
 
     <Grid>
         <Image Height="600" Width="900" Margin="135 60 0 0" Cursor="None">
-            <Image.Source>
-                /Res/Images/3men.png
-            </Image.Source>
+            <Image.Source>/Res/Images/3men.png</Image.Source>
         </Image>
         <Rectangle x:Name="Login"
                      Width="540"

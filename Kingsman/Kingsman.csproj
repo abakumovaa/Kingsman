@@ -298,7 +298,7 @@
     <Resource Include="Res\Images\Costumes\5costume.jpeg" />
     <Resource Include="Res\Images\Costumes\4costume.jpg" />
     <Resource Include="Res\Images\Costumes\3costume.jpg" />
-    <Resource Include="Res\Images\Costumes\1costume.jpeg" />
+    <Resource Include="Res\1costume.jpeg" />
     <Resource Include="Res\Images\Costumes\2costume.jpeg" />
   </ItemGroup>
   <ItemGroup>
