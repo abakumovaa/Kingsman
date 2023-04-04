@@ -21,9 +21,10 @@
 ![изображение](https://user-images.githubusercontent.com/99207233/226528810-08af9a29-35db-40a5-b5f5-5b4f183c1caf.png)
 
 <b> Список услуг <b>
-![список услуг](https://user-images.githubusercontent.com/99207233/229651521-d5f75e88-5a58-4081-a5af-363ba5856e7a.jpg)
+![список услуг](https://user-images.githubusercontent.com/99207233/229744743-aa141551-3512-42ba-a1f8-bb6f562aa351.jpg)
+
 
 <b> Окно регистрации <b>
-![регистрация](https://user-images.githubusercontent.com/99207233/229651572-29979eda-856f-4030-8648-bd77f97610e3.jpg)
+![регистрация](https://user-images.githubusercontent.com/99207233/229744705-c9a9f856-d338-49f3-bf44-0c11fe4dc40a.jpg)
 ![ошибка в регистрации](https://user-images.githubusercontent.com/99207233/229651629-6e019409-f7f2-425c-a0ff-0ee04b81f062.jpg)
 
