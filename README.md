@@ -12,7 +12,7 @@
 
 
 <b> Дизайн окна авторизации (от 16.03.23) <b>
-<img width="592" alt="Screenshot_1" src="https://user-images.githubusercontent.com/99207233/225826148-c58a7154-d0e8-4f42-bb6b-dc630526cd4b.png">
+![изображение](https://user-images.githubusercontent.com/99207233/229746769-da22355c-f519-4e48-91e0-24a65aedc4f3.png)
 <img width="587" alt="Screenshot_2" src="https://user-images.githubusercontent.com/99207233/225826176-e46c0c12-b41e-46c1-973f-3eb200f7ef66.png">
 
 <b> Авторизация пользователя (от 17.03.23) <b>
@@ -21,9 +21,10 @@
 ![изображение](https://user-images.githubusercontent.com/99207233/226528810-08af9a29-35db-40a5-b5f5-5b4f183c1caf.png)
 
 <b> Список услуг <b>
-![список услуг](https://user-images.githubusercontent.com/99207233/229651521-d5f75e88-5a58-4081-a5af-363ba5856e7a.jpg)
+![список услуг](https://user-images.githubusercontent.com/99207233/229744743-aa141551-3512-42ba-a1f8-bb6f562aa351.jpg)
+
 
 <b> Окно регистрации <b>
-![регистрация](https://user-images.githubusercontent.com/99207233/229651572-29979eda-856f-4030-8648-bd77f97610e3.jpg)
+![регистрация](https://user-images.githubusercontent.com/99207233/229744705-c9a9f856-d338-49f3-bf44-0c11fe4dc40a.jpg)
 ![ошибка в регистрации](https://user-images.githubusercontent.com/99207233/229651629-6e019409-f7f2-425c-a0ff-0ee04b81f062.jpg)
 
