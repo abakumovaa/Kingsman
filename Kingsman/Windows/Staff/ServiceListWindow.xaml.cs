@@ -34,5 +34,14 @@ namespace Kingsman.Windows.Staff
         {
 
         }
+
+        private void BtnAddService_Click(object sender, RoutedEventArgs e)
+        {
+            AddServiceWindow addServiceWindow = new AddServiceWindow();
+            addServiceWindow.ShowDialog();
+
+            // Обновляем лист
+            GetListService();
+        }
     }
 }

@@ -116,5 +116,17 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
+        <Button x:Name="BtnAddService"
+                Grid.Row="3"
+                Width="50"
+                Height="50"
+                Background="{x:Null}"
+                BorderThickness="0"
+                HorizontalAlignment="Right"
+                Margin="0 -600 -200 0"
+                Click="BtnAddService_Click">
+            <Image Source="/Res/Images/add.png" OpacityMask="#CCFFFFFF"/>
+        </Button>
     </Grid>
 </Window>

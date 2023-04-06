@@ -123,6 +123,9 @@
     <Compile Include="DB\sysdiagrams.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Windows\AddServiceWindow.xaml.cs">
+      <DependentUpon>AddServiceWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\AuthWindow.xaml.cs">
       <DependentUpon>AuthWindow.xaml</DependentUpon>
     </Compile>
@@ -168,6 +171,10 @@
     <Compile Include="Windows\Staff\ServiceListWindow.xaml.cs">
       <DependentUpon>ServiceListWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="Windows\AddServiceWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\Client\ClientOrderWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -312,6 +319,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Res\Images\add.png" />
+    <Resource Include="Res\Images\Back4.png" />
     <Resource Include="Res\Images\3men.png" />
     <Resource Include="Res\Images\Back3.png" />
   </ItemGroup>
