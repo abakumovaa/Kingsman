@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using Kingsman.ClassHelper;
+
 namespace Kingsman.Windows.Staff
 {
     /// <summary>
@@ -42,6 +44,43 @@ namespace Kingsman.Windows.Staff
 
             // Обновляем лист
             GetListService();
+        }
+
+        private void BtnEdit_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (LvService.SelectedItem == null)
+            {
+                return;
+            }
+            var service = LvService.SelectedItem as DB.Service; // получаем выбранную запись
+            EditServiceWindow editServiceWindow = new EditServiceWindow(service);
+            editServiceWindow.ShowDialog();
+
+            GetListService();
+        }
+
+        // добавление в корзину
+        private void BtnAddToCart_Click(object sender, RoutedEventArgs e)
+        {
+ 
+            if (LvService.SelectedItem == null)
+            {
+                return;
+            }
+            var service = LvService.SelectedItem as DB.Service; // получаем выбранную запись
+
+            CartServiceClass.ServiceCart.Add(service);
+
+            MessageBox.Show($"Услуга {service.Title} добавлена в корзину!");
+        }
+
+        private void BtnGoToCart_Click(object sender, RoutedEventArgs e)
+        {
+            CartWindow cartWindow = new CartWindow();
+            this.Close();
+            cartWindow.ShowDialog();
+
         }
     }
 }
