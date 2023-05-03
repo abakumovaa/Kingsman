@@ -28,3 +28,6 @@
 ![регистрация](https://user-images.githubusercontent.com/99207233/229744705-c9a9f856-d338-49f3-bf44-0c11fe4dc40a.jpg)
 ![ошибка в регистрации](https://user-images.githubusercontent.com/99207233/229651629-6e019409-f7f2-425c-a0ff-0ee04b81f062.jpg)
 
+<b> Добавление услуги <b>
+![добавление услуги](https://user-images.githubusercontent.com/99207233/230501506-242298a0-b3b0-492c-b2ee-70328608840b.jpg)
+![добавление услуги2](https://user-images.githubusercontent.com/99207233/230501511-631694e2-b3a4-4b68-9e01-1d1f5d5ba3c2.jpg)
