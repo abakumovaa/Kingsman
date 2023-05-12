@@ -41,4 +41,10 @@
   ![изображение](https://user-images.githubusercontent.com/99207233/236017438-105b1ec2-e8f2-40b0-be75-d5ba89c75aa9.png)
 ![изображение](https://user-images.githubusercontent.com/99207233/236017564-d8a92726-294d-49f2-a4bd-60720b0519a6.png)
 
+  <b> Список клиентов и изменение данных клиента <b>
+![1](https://github.com/abakumovaa/Kingsman/assets/99207233/e3c5a6dd-a516-499f-a8a2-c69ce01b97cd)
+![2](https://github.com/abakumovaa/Kingsman/assets/99207233/2c1bb1a3-2990-4390-b0ed-df284531e683)
+ ![измененные данные](https://github.com/abakumovaa/Kingsman/assets/99207233/2896c1c7-1915-4b2b-9bd0-6b84e450720a)
+
+
   
