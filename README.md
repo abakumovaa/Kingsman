@@ -31,3 +31,14 @@
 <b> Добавление услуги <b>
 ![добавление услуги](https://user-images.githubusercontent.com/99207233/230501506-242298a0-b3b0-492c-b2ee-70328608840b.jpg)
 ![добавление услуги2](https://user-images.githubusercontent.com/99207233/230501511-631694e2-b3a4-4b68-9e01-1d1f5d5ba3c2.jpg)
+  
+<b> Изменение услуги <b>
+  ![изображение](https://user-images.githubusercontent.com/99207233/236017144-ef6da4cf-4129-494a-bcb8-11e51eaf493f.png)
+![изображение](https://user-images.githubusercontent.com/99207233/236017246-4c940048-ca3f-47ed-98c1-0434f16877e7.png)
+![изображение](https://user-images.githubusercontent.com/99207233/236017297-46fdfd3c-1b31-42f9-b504-b3aa5d2a5c0f.png)
+
+<b> Корзина <b>
+  ![изображение](https://user-images.githubusercontent.com/99207233/236017438-105b1ec2-e8f2-40b0-be75-d5ba89c75aa9.png)
+![изображение](https://user-images.githubusercontent.com/99207233/236017564-d8a92726-294d-49f2-a4bd-60720b0519a6.png)
+
+  
