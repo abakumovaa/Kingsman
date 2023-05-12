@@ -133,6 +133,9 @@
     <Compile Include="Windows\CartWindow.xaml.cs">
       <DependentUpon>CartWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\ClientsListWindow.xaml.cs">
+      <DependentUpon>ClientsListWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Client\ClientOrderWindow.xaml.cs">
       <DependentUpon>ClientOrderWindow.xaml</DependentUpon>
     </Compile>
@@ -154,11 +157,17 @@
     <Compile Include="Windows\Client\PortfolioWindow.xaml.cs">
       <DependentUpon>PortfolioWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\EditClientListWindow.xaml.cs">
+      <DependentUpon>EditClientListWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\EditServiceWindow.xaml.cs">
       <DependentUpon>EditServiceWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\RegistrationWindow.xaml.cs">
       <DependentUpon>RegistrationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\StaffListWindow.xaml.cs">
+      <DependentUpon>StaffListWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Staff\AdminAccountWindow.xaml.cs">
       <DependentUpon>AdminAccountWindow.xaml</DependentUpon>
@@ -186,6 +195,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Windows\ClientsListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\Client\ClientOrderWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -195,6 +208,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Client\IndividualClothesOrderWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\EditClientListWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -235,6 +252,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\RegistrationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\StaffListWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -334,6 +355,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Resource Include="Res\Images\clients.png" />
     <Resource Include="Res\Images\Back6.png" />
     <Resource Include="Res\Images\defImg.jpg" />
     <Resource Include="Res\Images\cart.png" />

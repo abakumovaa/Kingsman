@@ -133,6 +133,18 @@
             </ListView.ItemTemplate>
         </ListView>
 
+        <Button x:Name="BtnClientsList"
+                  Width="50"
+                  Height="50"
+                  HorizontalAlignment="Left"
+                  Margin="600 -600 0 0"
+                  Grid.Row="3"
+                  Background="{x:Null}"
+                  BorderThickness="0"
+                  Click="BtnClientsList_Click">
+            <Image Source="/Res/Images/clients.png" />
+        </Button>
+
         <Button x:Name="BtnAddToCart"
                   Width="40"
                   Height="40"

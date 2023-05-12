@@ -82,5 +82,12 @@ namespace Kingsman.Windows.Staff
             cartWindow.ShowDialog();
 
         }
+
+        private void BtnClientsList_Click(object sender, RoutedEventArgs e)
+        {
+            ClientsListWindow clientsListWindow = new ClientsListWindow();
+            this.Close();
+            clientsListWindow.ShowDialog();
+        }
     }
 }
