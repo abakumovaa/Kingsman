@@ -51,12 +51,13 @@
     ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/eaeafa22-4a0c-4041-a680-5d4d7c6b64bf)
     ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/20cc3ae5-c2e4-490c-8389-88a5211a0681)
     
-    <b> Главное меню с переходом на остальные окна <b>
+  <b> Главное меню с переходом на остальные окна <b>
       
-      ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/f06bc298-6b01-4039-8619-ab2741a7cd92)
-      
-      <b> Обновленное окно услуг с кнопками работников и клиентов соответственно <b>
+      ![1111111](https://github.com/abakumovaa/Kingsman/assets/99207233/238ca5f7-65f0-40ac-8b34-93de8f0c1d10)
+
+  <b> Обновленное окно услуг с кнопками работников и клиентов соответственно <b>
         
-        ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/e5d532fb-fe47-44b1-93ba-76b7394beb54)
+       ![1111111111](https://github.com/abakumovaa/Kingsman/assets/99207233/c9cd9d1d-3bf4-461e-9dad-c227cca16d3e)
+
 
   
