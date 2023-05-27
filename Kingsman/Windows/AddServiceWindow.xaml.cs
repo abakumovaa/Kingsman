@@ -27,7 +27,7 @@ namespace Kingsman.Windows
             InitializeComponent();
 
             CmbTypeService.ItemsSource = ClassHelper.EF.Context.Category.ToList(); //?????????????????????????????????
-            CmbTypeService.DisplayMemberPath = "TypeName";
+            CmbTypeService.DisplayMemberPath = "Title";
             CmbTypeService.SelectedIndex = 0;
         }
 

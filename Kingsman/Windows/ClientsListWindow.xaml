@@ -87,6 +87,26 @@
                         </Button.Resources>
                     </Button>
 
+                    <Button x:Name="BtnAddClient"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Width="120"
+                            Height="40"
+                            Content="Add client"
+                            FontFamily="Krona One"
+                            Margin="650,0,0,0"
+                            FontWeight="Bold"
+                            FontSize="15"
+                            Click="BtnAddClient_Click"
+                            Grid.Row="2"
+                            Background="White" BorderBrush="#00707070">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="9"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
                     <Button x:Name="BtnEditClient"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Left"

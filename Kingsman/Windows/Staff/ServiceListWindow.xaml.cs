@@ -89,5 +89,12 @@ namespace Kingsman.Windows.Staff
             this.Close();
             clientsListWindow.ShowDialog();
         }
+
+        private void BtnStaffList_Click(object sender, RoutedEventArgs e)
+        {
+            StaffListWindow staffListWindow = new StaffListWindow();
+            this.Close();
+            staffListWindow.ShowDialog();
+        }
     }
 }

@@ -40,7 +40,7 @@ namespace Kingsman.Windows
             // Заполнение типа услуги
 
             CmbGender.ItemsSource = ClassHelper.EF.Context.Gender.ToList();
-            CmbGender.DisplayMemberPath = "Gender";
+            CmbGender.DisplayMemberPath = "Code";
 
 
             // заполнение полей
@@ -50,6 +50,7 @@ namespace Kingsman.Windows
             TbPhone.Text = client.Phone;
             TbLogin.Text = client.Login;
             TbPassword.Text = client.Password;
+            TbEmail.Text = client.Email;
 
             // заполнение типа услуги
             CmbGender.SelectedItem = ClassHelper.EF.Context.Gender.Where(i => i.Code == client.GenderCode).FirstOrDefault();
@@ -66,6 +67,7 @@ namespace Kingsman.Windows
             editClient.Login = TbLogin.Text;
             editClient.Password = TbPassword.Text;
             editClient.GenderCode = (CmbGender.SelectedItem as DB.Gender).Code;
+            editClient.Email = TbEmail.Text;
 
             ClassHelper.EF.Context.SaveChanges();
 

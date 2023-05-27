@@ -145,6 +145,18 @@
             <Image Source="/Res/Images/clients.png" />
         </Button>
 
+        <Button x:Name="BtnStaffList"
+                  Width="40"
+                  Height="40"
+                  HorizontalAlignment="Left"
+                  Margin="500 -600 0 0"
+                  Grid.Row="3"
+                  Background="{x:Null}"
+                  BorderThickness="0"
+                  Click="BtnStaffList_Click">
+            <Image Source="/Res/Images/staff.png" />
+        </Button>
+
         <Button x:Name="BtnAddToCart"
                   Width="40"
                   Height="40"
@@ -159,7 +171,7 @@
         
         <Button x:Name="BtnAddService"
                 Grid.Row="3"
-                Width="50"
+                Width="40"
                 Height="50"
                 Background="{x:Null}"
                 BorderThickness="0"
@@ -171,7 +183,7 @@
 
         <Button x:Name="BtnEdit"
                 Grid.Row="3"
-                Width="50"
+                Width="40"
                 Height="50"
                 Background="{x:Null}"
                 BorderThickness="0"

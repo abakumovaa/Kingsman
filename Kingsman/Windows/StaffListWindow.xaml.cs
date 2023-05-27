@@ -23,6 +23,11 @@ namespace Kingsman.Windows
         public StaffListWindow()
         {
             InitializeComponent();
+            GetListStaff();
+        }
+
+        private void GetListStaff()
+        {
             DgStaff.ItemsSource = ClassHelper.EF.Context.Staff.ToList();
         }
 
@@ -32,5 +37,27 @@ namespace Kingsman.Windows
             this.Close();
             serviceListWindow.Show();
         }
+
+        private void BtnEditStaff_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (DgStaff.SelectedItem == null)
+            {
+                return;
+            }
+            var staff = DgStaff.SelectedItem as DB.Staff; // получаем выбранную запись
+            EditStaffListWindow editStaffListWindow = new EditStaffListWindow(staff);
+            editStaffListWindow.ShowDialog();
+
+            GetListStaff();
+        }
+
+        private void BtnAddStaff_Click(object sender, RoutedEventArgs e)
+        {
+            AddStaffListWindow addStaffListWindow = new AddStaffListWindow();
+            this.Close();
+            addStaffListWindow.Show();
+        }
+
     }
 }

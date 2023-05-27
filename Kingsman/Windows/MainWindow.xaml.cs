@@ -51,9 +51,9 @@ namespace Kingsman
             
             if (userAuth != null)
             {
-                //переход на список услуг
-                ServiceListWindow serviceListWindow = new ServiceListWindow();
-                serviceListWindow.Show();
+                //переход на главное окно
+                FeaturesWindow featuresWindow = new FeaturesWindow();
+                featuresWindow.Show();
                 this.Close();
             }
 

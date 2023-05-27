@@ -53,5 +53,11 @@ namespace Kingsman.Windows
 
             GetListClient();
     }
+
+        private void BtnAddClient_Click(object sender, RoutedEventArgs e)
+        {
+            AddClientWindow addClientWindow = new AddClientWindow();
+            addClientWindow.Show();
+        }
     }
 }

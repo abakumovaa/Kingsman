@@ -57,7 +57,7 @@
                             <DataGrid.Columns>
                                 <DataGridTextColumn Header="Id" Binding="{Binding ID}"/>
                                 <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}"/>
-                                <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                                <DataGridTextColumn Header="Фамилия" Binding="{Binding SecondName}"/>
                                 <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}"/>
                                 <DataGridTextColumn Header="Должность" Binding="{Binding PositionID}"/>
                                 <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}"/>
@@ -84,6 +84,47 @@
                             </Style>
                         </Button.Resources>
                     </Button>
+
+                    <Button x:Name="BtnEditStaff"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Width="120"
+                            Height="40"
+                            Content="Edit staff"
+                            FontFamily="Krona One"
+                            Margin="800,0,0,0"
+                            FontWeight="Bold"
+                            FontSize="15"
+                            Click="BtnEditStaff_Click"
+                            Grid.Row="2"
+                            Background="White" BorderBrush="#00707070">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="9"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <Button x:Name="BtnAddStaff"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Width="120"
+                            Height="40"
+                            Content="Add staff"
+                            FontFamily="Krona One"
+                            Margin="650,0,0,0"
+                            FontWeight="Bold"
+                            FontSize="15"
+                            Click="BtnAddStaff_Click"
+                            Grid.Row="2"
+                            Background="White" BorderBrush="#00707070">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="9"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
                 </Grid>
             </Border>
         </Border>
