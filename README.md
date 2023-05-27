@@ -52,9 +52,11 @@
     ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/20cc3ae5-c2e4-490c-8389-88a5211a0681)
     
     <b> Главное меню с переходом на остальные окна <b>
+      
       ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/f06bc298-6b01-4039-8619-ab2741a7cd92)
       
       <b> Обновленное окно услуг с кнопками работников и клиентов соответственно <b>
+        
         ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/e5d532fb-fe47-44b1-93ba-76b7394beb54)
 
   
