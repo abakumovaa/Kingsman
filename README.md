@@ -46,5 +46,15 @@
 ![2](https://github.com/abakumovaa/Kingsman/assets/99207233/2c1bb1a3-2990-4390-b0ed-df284531e683)
  ![измененные данные](https://github.com/abakumovaa/Kingsman/assets/99207233/2896c1c7-1915-4b2b-9bd0-6b84e450720a)
 
+  <b> Список работников и изменение данных работника <b>
+    ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/7e177324-4778-4644-86b2-79e3b8d70ac9)
+    ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/eaeafa22-4a0c-4041-a680-5d4d7c6b64bf)
+    ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/20cc3ae5-c2e4-490c-8389-88a5211a0681)
+    
+    <b> Главное меню с переходом на остальные окна <b>
+      ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/f06bc298-6b01-4039-8619-ab2741a7cd92)
+      
+      <b> Обновленное окно услуг с кнопками работников и клиентов соответственно <b>
+        ![изображение](https://github.com/abakumovaa/Kingsman/assets/99207233/e5d532fb-fe47-44b1-93ba-76b7394beb54)
 
   
