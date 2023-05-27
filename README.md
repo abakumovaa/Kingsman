@@ -53,7 +53,6 @@
     
     
   <b> Главное меню <b>
-    
     ![1111111](https://github.com/abakumovaa/Kingsman/assets/99207233/38b9f19a-28e9-4729-901d-262a55b7e401)
 
 
